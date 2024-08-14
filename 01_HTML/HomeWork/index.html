@@ -76,49 +76,51 @@
     <div>
       <fieldset>
         <legend>Ask us about planets</legend>
-        <div>
-          <label for="name">Full name:</label>
-          <input type="text" name="name" id="name" />
-        </div>
-        <br />
-        <div>
-          <label for="email">Email:</label>
-          <input type="email" name="email" id="email" />
-        </div>
-        <div>
-          <p>Favorite planet:</p>
-          <input type="radio" name="planet" id="Mercury" />
-          <label for="Mercury">Mercury</label> <br />
-          <input type="radio" name="planet" id="Venus" />
-          <label for="Venus">Venus</label> <br />
-          <input type="radio" name="planet" id="Earth" />
-          <label for="Earth">Earth</label> <br />
-          <input type="radio" name="planet" id="Mars" />
-          <label for="Mars">Mars</label> <br />
-          <input type="radio" name="planet" id="Jupiter" />
-          <label for="Jupiter">Jupiter</label> <br />
-          <input type="radio" name="planet" id="Saturn" />
-          <label for="Saturn">Saturn</label> <br />
-          <input type="radio" name="planet" id="Uranus" />
-          <label for="Uranus">Uranus</label> <br />
-          <input type="radio" name="planet" id="Neptune" />
-          <label for="Neptune">Neptune</label> <br />
-          <input type="radio" name="planet" id="Pluto" />
-          <label for="Pluto">Pluto</label> <br />
-        </div>
-        <br />
-        <div>
-          <input type="checkbox" name="tc" id="tc" />
-          <label for="tc"
-            >I agree to the
-            <a href="https://meta.wikimedia.org/wiki/Terms_of_use"
-              >terms and conditions</a
-            ></label
-          >
-        </div>
-        <br />
-        <button>Reset</button>
-        <button>Ask Away</button>
+        <form action="">
+          <div>
+            <label for="name">Full name:</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <br />
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="planet">Favorite planet:</label><br />
+            <input type="radio" name="planet" id="Mercury" />
+            <label for="Mercury">Mercury</label> <br />
+            <input type="radio" name="planet" id="Venus" />
+            <label for="Venus">Venus</label> <br />
+            <input type="radio" name="planet" id="Earth" checked="checked" />
+            <label for="Earth">Earth</label> <br />
+            <input type="radio" name="planet" id="Mars" />
+            <label for="Mars">Mars</label> <br />
+            <input type="radio" name="planet" id="Jupiter" />
+            <label for="Jupiter">Jupiter</label> <br />
+            <input type="radio" name="planet" id="Saturn" />
+            <label for="Saturn">Saturn</label> <br />
+            <input type="radio" name="planet" id="Uranus" />
+            <label for="Uranus">Uranus</label> <br />
+            <input type="radio" name="planet" id="Neptune" />
+            <label for="Neptune">Neptune</label> <br />
+            <input type="radio" name="planet" id="Pluto" />
+            <label for="Pluto">Pluto</label> <br />
+          </div>
+          <br />
+          <div>
+            <input type="checkbox" name="tc" id="tc" />
+            <label for="tc"
+              >I agree to the
+              <a href="https://meta.wikimedia.org/wiki/Terms_of_use"
+                >terms and conditions</a
+              ></label
+            >
+          </div>
+          <br />
+          <button>Reset</button>
+          <button>Ask Away</button>
+        </form>
       </fieldset>
     </div>
   </body>
