@@ -12,63 +12,114 @@
   </head>
   <body>
     <h1>Planets</h1>
-    <table border="1">
-      <thead>
-        <td colspan="2"></td>
-        <td>Name</td>
-        <td>Mass (10<sup>24</sup>kg)</td>
-        <td>Diameter (km)</td>
-      </thead>
-      <tr>
-        <td rowspan="4" colspan="2"><b>Terestrial Planets</b></td>
-        <td><b>Mercury</b></td>
-        <td>0.330</td>
-        <td>4,879</td>
-      </tr>
-      <tr>
-        <td><b>Venus</b></td>
-        <td>4.87</td>
-        <td>12,104</td>
-      </tr>
-      <tr>
-        <td><b>Earth</b></td>
-        <td>5.97</td>
-        <td>12,756</td>
-      </tr>
-      <tr>
-        <td><b>Mars</b></td>
-        <td>0.642</td>
-        <td>6.792</td>
-      </tr>
-      <tr>
-        <td rowspan="4"><b>Jovian Planets</b></td>
-        <td rowspan="2"><b>Gas Giants</b></td>
-        <td><b>Jupiter</b></td>
-        <td>1898</td>
-        <td>142,984</td>
-      </tr>
-      <tr>
-        <td><b>Saturn</b></td>
-        <td>568</td>
-        <td>120,536</td>
-      </tr>
-      <tr>
-        <td rowspan="2"><b>Ice Giants</b></td>
-        <td><b>Uranus</b></td>
-        <td>86.8</td>
-        <td>51,118</td>
-      </tr>
-      <tr>
-        <td><b>Neptune</b></td>
-        <td>102</td>
-        <td>49,528</td>
-      </tr>
-      <tr>
-        <td colspan="2"><b>Dwarf planets</b></td>
-        <td><b>Pluto</b></td>
-        <td>0.0146</td>
-        <td>2,370</td>
-      </tr>
-    </table>
+    <div>
+      <table border="1">
+        <thead>
+          <td colspan="2"></td>
+          <td>Name</td>
+          <td>Mass (10<sup>24</sup>kg)</td>
+          <td>Diameter (km)</td>
+        </thead>
+        <tr>
+          <td rowspan="4" colspan="2"><b>Terestrial Planets</b></td>
+          <td><b>Mercury</b></td>
+          <td>0.330</td>
+          <td>4,879</td>
+        </tr>
+        <tr>
+          <td><b>Venus</b></td>
+          <td>4.87</td>
+          <td>12,104</td>
+        </tr>
+        <tr>
+          <td><b>Earth</b></td>
+          <td>5.97</td>
+          <td>12,756</td>
+        </tr>
+        <tr>
+          <td><b>Mars</b></td>
+          <td>0.642</td>
+          <td>6.792</td>
+        </tr>
+        <tr>
+          <td rowspan="4"><b>Jovian Planets</b></td>
+          <td rowspan="2"><b>Gas Giants</b></td>
+          <td><b>Jupiter</b></td>
+          <td>1898</td>
+          <td>142,984</td>
+        </tr>
+        <tr>
+          <td><b>Saturn</b></td>
+          <td>568</td>
+          <td>120,536</td>
+        </tr>
+        <tr>
+          <td rowspan="2"><b>Ice Giants</b></td>
+          <td><b>Uranus</b></td>
+          <td>86.8</td>
+          <td>51,118</td>
+        </tr>
+        <tr>
+          <td><b>Neptune</b></td>
+          <td>102</td>
+          <td>49,528</td>
+        </tr>
+        <tr>
+          <td colspan="2"><b>Dwarf planets</b></td>
+          <td><b>Pluto</b></td>
+          <td>0.0146</td>
+          <td>2,370</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <div>
+      <fieldset>
+        <legend>Ask us about planets</legend>
+        <div>
+          <label for="name">Full name:</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <br />
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div>
+          <p>Favorite planet:</p>
+          <input type="radio" name="planet" id="Mercury" />
+          <label for="Mercury">Mercury</label> <br />
+          <input type="radio" name="planet" id="Venus" />
+          <label for="Venus">Venus</label> <br />
+          <input type="radio" name="planet" id="Earth" />
+          <label for="Earth">Earth</label> <br />
+          <input type="radio" name="planet" id="Mars" />
+          <label for="Mars">Mars</label> <br />
+          <input type="radio" name="planet" id="Jupiter" />
+          <label for="Jupiter">Jupiter</label> <br />
+          <input type="radio" name="planet" id="Saturn" />
+          <label for="Saturn">Saturn</label> <br />
+          <input type="radio" name="planet" id="Uranus" />
+          <label for="Uranus">Uranus</label> <br />
+          <input type="radio" name="planet" id="Neptune" />
+          <label for="Neptune">Neptune</label> <br />
+          <input type="radio" name="planet" id="Pluto" />
+          <label for="Pluto">Pluto</label> <br />
+        </div>
+        <br />
+        <div>
+          <input type="checkbox" name="tc" id="tc" />
+          <label for="tc"
+            >I agree to the
+            <a href="https://meta.wikimedia.org/wiki/Terms_of_use"
+              >terms and conditions</a
+            ></label
+          >
+        </div>
+        <br />
+        <button>Reset</button>
+        <button>Ask Away</button>
+      </fieldset>
+    </div>
   </body>
 </html>
