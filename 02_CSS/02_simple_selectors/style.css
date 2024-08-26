@@ -1,0 +1,22 @@
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 1, 170);
+  background-color: rgb(255, 196, 255);
+  padding: 10px;
+}
+
+#second-h2 {
+  background-color: rgb(177, 141, 166);
+}
+
+.text-red {
+  color: red;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.p-10 {
+  padding: 10px;
+}
