@@ -1,0 +1,30 @@
+[target] {
+  color: red;
+}
+
+[target="_self"] {
+  color: magenta;
+}
+
+[target="_blank"] {
+  color: lime;
+}
+
+/* [class~="box"] {
+  color: darkcyan;
+  background-color: antiquewhite;
+} */
+
+[class|="first"] {
+  background-color: aquamarine;
+}
+
+/* Începe cu */
+[href^="https"] {
+  background-color: violet;
+}
+
+/* Se termină cu */
+[href$=".com"] {
+  color: red;
+}
