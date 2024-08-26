@@ -1,0 +1,19 @@
+li:nth-child(3n) {
+  background-color: rgb(228, 91, 109);
+}
+
+li:nth-child(3n + 1) {
+  background-color: rgba(243, 52, 202, 0.11);
+}
+
+li:nth-child(3n + 2) {
+  background-color: rgb(139, 100, 136);
+}
+
+input:checked {
+  transform: scale(1.3);
+}
+
+button:hover {
+  transform: scale(1.4);
+}
