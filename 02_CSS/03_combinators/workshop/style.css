@@ -1,0 +1,15 @@
+body {
+  background-color: gray;
+}
+
+p a {
+  color: turquoise;
+}
+
+a {
+  color: lime;
+}
+
+body > p > span {
+  color: pink;
+}
