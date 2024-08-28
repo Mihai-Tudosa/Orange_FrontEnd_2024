@@ -1,0 +1,49 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: bisque;
+}
+
+h1 {
+  display: none;
+  padding: 100px;
+  font-size: 60px;
+  color: salmon;
+}
+
+/* Widescreen */
+
+@media (min-width: 1201px) {
+  body {
+    background-color: darkmagenta;
+  }
+  #widescreen > h1 {
+    display: block;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+  body {
+    background-color: blue;
+  }
+  #laptop > h1 {
+    display: block;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+  body {
+    background-color: pink;
+  }
+  #tablet > h1 {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color: greenyellow;
+  }
+  #smartphone > h1 {
+    display: block;
+  }
+}
