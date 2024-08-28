@@ -1,0 +1,14 @@
+body {
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+#mihai {
+  text-shadow: -6.25px -6.25px #0c2ffb, -12.5px -12.5px #2cfcfd,
+    6.25px 6.25px #fb203b, 12.5px 12.5px #fefc4b;
+}
