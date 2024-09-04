@@ -98,3 +98,58 @@ console.log("🚀 ~ rezultat:", rezultat);
 
 //Null - lipsa intenționată a unei valori
 var altceva = null;
+
+//operatori
+
+var suma = 2 + 8;
+console.log("🚀 ~ suma:", suma);
+console.log("10" + 2);
+console.log(2 + 2 + "10" + 3 + 3);
+
+//scadere
+
+var diferenta = 10 - 2;
+console.log("🚀 ~ diferenta:", diferenta);
+
+//inmultire
+
+var produs = 4 * 5;
+console.log("🚀 ~ produs:", produs);
+
+//impartire
+
+var cat = 20 / 6;
+console.log("🚀 ~ cat:", cat);
+
+//modulo
+var rest = 20 % 6;
+console.log("🚀 ~ rest:", rest);
+
+var numar = 21;
+console.log("🚀 ~ numar:", numar);
+var estePar = numar % 2 === 0;
+console.log("🚀 ~ estePar:", estePar);
+
+//incrementare
+
+var i = 7;
+i++; // i=i+1;
+console.log("🚀 ~ i:", i);
+console.log(`i = ${j}`);
+
+//decrementare
+
+var j = 8;
+j--; // i=i-1;
+console.log("🚀 ~ j:", j);
+
+//operatori de atribuire
+
+var numar3 = 10;
+console.log("🚀 ~ numar3:", numar3);
+var total = 10;
+console.log("🚀 ~ total:", total);
+total += 5;
+console.log("🚀 ~ total:", total);
+
+console.log(`Total e egal cu ${(total *= 4)}`);
