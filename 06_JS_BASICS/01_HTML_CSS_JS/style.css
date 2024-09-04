@@ -1,0 +1,31 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 173, 20);
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+button {
+  height: 100px;
+  width: 500px;
+  font-size: 50px;
+  background: rgb(255, 173, 20);
+  background: linear-gradient(
+    36deg,
+    rgba(255, 173, 20, 1) 0%,
+    rgba(254, 255, 89, 1) 22%,
+    rgba(31, 180, 34, 1) 72%
+  );
+  color: white;
+}
