@@ -153,3 +153,54 @@ total += 5;
 console.log("🚀 ~ total:", total);
 
 console.log(`Total e egal cu ${(total *= 4)}`);
+
+// operatorii de comparare
+// comparare la egalitate
+console.log(5 == "5"); //true se compara doar valorile
+// comparare la egalitate stricta
+console.log(5 === "5"); // fales - se compara valorile si tipurile, number nu este string
+
+//comparare inegalitate
+var inegalitate;
+console.log("🚀 ~ inegalitate:", inegalitate);
+console.log(5 != 3);
+//inegalitate stricta - strict diferit de !==
+var stricta;
+console.log("🚀 ~ stricta:", stricta);
+console.log(5 !== "5");
+console.log(5 !== 3);
+
+//mai mare > mai mic < >= sau <=
+
+console.log("roviniete");
+//operatori logigi - AND (&&) și OR (||)
+
+//and - ambele tre sa fie true ca sa fie true
+
+var amRovinieta;
+var amRca;
+
+var potIesiDinLocalitate = amRovinieta && amRca;
+
+//or - ambele tre sa fie false ca sa fie false
+
+var amCard;
+var amCash;
+
+var potPlati = amCard || amCash;
+
+// operatorul typeof
+console.log(typeof 10);
+console.log(typeof "10");
+console.log(typeof true);
+console.log(typeof 2 * 3);
+console.log(typeof 10 + "10");
+console.log(typeof amCard);
+console.log(typeof NaN);
+
+//operatorul ternar/conditional
+var varsta = 20;
+var poateconduce = varsta > 18 ? true : false;
+console.log("🚀 ~ poateconduce:", poateconduce);
+var formaDeSalut = varsta < 40 ? "Bună!" : "Bună ziua!";
+console.log("🚀 ~ formaDeSalut:", formaDeSalut);
