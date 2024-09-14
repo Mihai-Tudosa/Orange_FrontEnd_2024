@@ -199,6 +199,7 @@ console.log(typeof amCard);
 console.log(typeof NaN);
 
 //operatorul ternar/conditional
+
 var varsta = 20;
 var poateconduce = varsta > 18 ? true : false;
 console.log("🚀 ~ poateconduce:", poateconduce);
