@@ -38,7 +38,7 @@ function adaugaProdusInContainer(produs) {
 const produse = [
   {
     poza: "images/legume_supa.jpg",
-    nume: "Leguem supă 600g",
+    nume: "Legume supă 600g",
     pret: 6.64,
   },
   {
