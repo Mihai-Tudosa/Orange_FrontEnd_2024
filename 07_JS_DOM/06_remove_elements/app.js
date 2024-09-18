@@ -6,7 +6,6 @@
 //   //   console.log("test");
 //   deleteButon.parentElement.parentElement.remove();
 // }
-
 function deleteTask(element) {
   element.parentElement.parentElement.remove();
 }
