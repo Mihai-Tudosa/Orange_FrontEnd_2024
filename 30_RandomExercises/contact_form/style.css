@@ -1,0 +1,123 @@
+body {
+  font-family: "Noto Sans";
+  display: flex;
+  background-color: rgba(255, 242, 251, 0.877);
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+img {
+}
+
+.container {
+  margin: 100px 0px 0px 0px;
+  background-color: white;
+  width: 900px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.card {
+  padding: 30px;
+}
+
+.leftcard {
+  background-color: #5bce93;
+  width: 35%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.buline {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.bulinaCard {
+  display: flex;
+  flex-direction: row;
+}
+
+div.container img {
+  filter: invert(100%);
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.rightcard {
+  width: 65%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameEmail {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0px;
+}
+
+.nameItem {
+  margin: 40px;
+}
+
+form input,
+form textarea {
+  border: none;
+  border-bottom: solid lightgray 1px;
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+
+/* form textarea {
+    maxsize:
+} */
+
+form input::placeholder,
+form textarea::placeholder {
+  color: lightgray;
+}
+
+button {
+  border: none;
+  background-color: #5bce93;
+  color: white;
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
