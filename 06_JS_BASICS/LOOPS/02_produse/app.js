@@ -11,13 +11,21 @@
 //      <p>6.64 Lei</p>
 //    </div>;
 
-const produs = {
-  poza: "images/castraveti_cornichon.jpg",
-  nume: "Castraveți Cornichon",
-  pret: 9.98,
-};
+// const produs = {
+//   poza: "images/castraveti_cornichon.jpg",
+//   nume: "Castraveți Cornichon",
+//   pret: 9.98,
+// };
 
-console.log(produs);
+// const produs = 0;
+
+// // const produs = {
+// //   poza: "",
+// //   nume: "",
+// //   pret: "",
+// // };
+
+// console.log(produs);
 
 const container = document.getElementById("container");
 
