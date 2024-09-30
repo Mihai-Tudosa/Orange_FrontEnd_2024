@@ -44,9 +44,9 @@ function coloreazaStelute(stele) {
   let steleHtml = "";
   for (let i = 0; i < 5; i++) {
     if (i < stele) {
-      steleHtml += `<span class = "steaPlina">⭐</span>`;
+      steleHtml += `<span class="stea steaPlina" data-index=${i}>⭐</span>`;
     } else {
-      steleHtml += `<span class = "steaGoala">⭐</span>`;
+      steleHtml += `<span class="stea steaGoala" data-index=${i}>⭐</span>`;
     }
   }
   return steleHtml;
@@ -82,3 +82,26 @@ function afiseazaProduse(produse) {
 }
 
 afiseazaProduse(produse);
+
+// Numele unei funcții nu chemare
+container.addEventListener("mouseover", handleReviewStars);
+
+// primu parametru e eventu declansat si are si un target
+
+function handleReviewStars(e) {
+  if (e.target.classList.contains("stea")) {
+    const parent = e.target.parentElement;
+    const stars = parent.querySelectorAll(".stea");
+    const currentStarIndex = Number(e.target.getAttribute("data-index"));
+    console.log(currentStarIndex);
+    for (let i = 0; i <= stars.length - 1; i++) {
+      if (i < currentStarIndex) {
+        stars[i].classList.add("SteaPlina");
+        stars[i].classList.remove("steaGoala");
+      } else {
+        stars[i].classList.remove("steaPlina");
+        stars[i].classList.add("steaGoala");
+      }
+    }
+  }
+}
