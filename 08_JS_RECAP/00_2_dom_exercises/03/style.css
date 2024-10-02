@@ -1,3 +1,7 @@
-Body {
+body {
   font-family: "Noto Sans", sans-serif;
+}
+
+.textColorat {
+  color: red;
 }
