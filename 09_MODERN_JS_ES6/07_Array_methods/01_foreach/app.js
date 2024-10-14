@@ -8,3 +8,5 @@ numere.forEach((numar) => console.log(numar));
 
 // numbers.forEach((number) => {});
 // products.forEach((product) => {});
+
+//CONSUMĂM ELEMENTELE
