@@ -1,0 +1,41 @@
+/* Container Styles */
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  padding: 20px;
+  background-color: #f0f8ff; /* Light blue background */
+  justify-items: center;
+}
+
+/* Card Styles */
+.card {
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
+  width: 100%;
+  max-width: 200px;
+  border: 2px solid darkcyan;
+  padding: 20px;
+  border-radius: 10px; /* Increased border radius for smoother corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: #ffffff; /* White background for the card */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Image Styles */
+.card img {
+  width: 100%; /* Make image responsive */
+  border-radius: 5px; /* Rounded corners for the image */
+}
+
+/* Paragraph Styles */
+.card p {
+  text-align: center;
+  color: darkcyan; /* Text color matching the border */
+  font-size: 1.1em; /* Slightly larger font size */
+}
+
+/* Hover Effects */
+.card:hover {
+  transform: translateY(-10px); /* Lift the card slightly */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
